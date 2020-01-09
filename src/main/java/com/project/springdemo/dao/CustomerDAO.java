@@ -1,11 +1,11 @@
-package com.luv2code.springdemo.service;
+package com.project.springdemo.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.luv2code.springdemo.entity.Customer;
+import com.project.springdemo.entity.Customer;
 
-public interface CustomerService {
+public interface CustomerDAO {
 
 	public List<Customer> getCustomers();
 
@@ -13,7 +13,8 @@ public interface CustomerService {
 
 	public Customer getCustomer(int theId);
 
-	public void deleteCustomer(int theId);
+	public Object deleteCustomer(int theId);
 
 	public List<Customer> searchCustomers(String theSearchName);
+
 }

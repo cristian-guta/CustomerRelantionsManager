@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.dao;
+package com.project.springdemo.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.luv2code.springdemo.entity.Customer;
+import com.project.springdemo.entity.Customer;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDAO{
